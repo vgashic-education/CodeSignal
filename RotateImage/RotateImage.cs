@@ -28,7 +28,7 @@ namespace RotateImage {
 
                 for (int j = 0; j < n; j++) {
 
-                    res[i][j] = a[j][i];
+                    res[i][j] = a[n-1-j][i];
 
                 }
             }
