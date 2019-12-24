@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstNonRepeatingCharacter"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RotateImage", "RotateImage\RotateImage.csproj", "{C8C3B739-A1C7-42AA-B158-E4677F30BC02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sudoku", "Sudoku\Sudoku.csproj", "{7DCD258F-D563-4835-B085-ED3105DD95EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sudoku", "Sudoku\Sudoku.csproj", "{7DCD258F-D563-4835-B085-ED3105DD95EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsCryptSolution", "IsCryptSolution\IsCryptSolution.csproj", "{146AA7A7-825F-4039-823C-69F6C8C06DD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{7DCD258F-D563-4835-B085-ED3105DD95EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DCD258F-D563-4835-B085-ED3105DD95EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DCD258F-D563-4835-B085-ED3105DD95EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{146AA7A7-825F-4039-823C-69F6C8C06DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{146AA7A7-825F-4039-823C-69F6C8C06DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{146AA7A7-825F-4039-823C-69F6C8C06DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{146AA7A7-825F-4039-823C-69F6C8C06DD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
