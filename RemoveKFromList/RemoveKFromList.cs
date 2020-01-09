@@ -55,9 +55,26 @@ namespace RemoveKFromList {
         //
         static ListNode<int> removeKFromList(ListNode<int> l, int k) {
 
-            
+            var rootNode = l;
 
+            // skip first elements if they are equal to k
+            while (rootNode != null && rootNode.value == k) {
+                rootNode = rootNode.next;
+            }
 
+            ListNode<int> currentNode = rootNode;
+
+            // 
+            while (currentNode != null) {
+
+                if (currentNode.next != null && currentNode.next.value == k) {
+                    currentNode.next = currentNode.next.next;
+                } else {
+                    currentNode = currentNode.next;
+                }
+            }
+
+            return rootNode;
 
         }
     }
