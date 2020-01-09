@@ -1,4 +1,5 @@
 ﻿using System;
+using static LinkedList.LinkedList;
 
 namespace RemoveKFromList {
 
@@ -30,18 +31,7 @@ namespace RemoveKFromList {
         }
 
 
-        static ListNode<int> LinkedListFromArray(int[] arr) {
-
-            // add first node
-            ListNode<int> res = new ListNode<int>() { value = arr[0], next = null };
-
-            // skip first because it's already added
-            for (int i = 1; i < arr.Length; i++) {
-                res.InsertNodeToEnd(res, arr[i]);
-            }
-
-            return res;
-        }
+        
 
 
 
@@ -55,7 +45,7 @@ namespace RemoveKFromList {
         //
         static ListNode<int> removeKFromList(ListNode<int> l, int k) {
 
-            var rootNode = l;
+            ListNode<int> rootNode = l;
 
             // skip first elements if they are equal to k
             while (rootNode != null && rootNode.value == k) {
@@ -80,40 +70,5 @@ namespace RemoveKFromList {
     }
 
 
-    public class ListNode<T> {
-
-        public T value { get; set; }
-
-        public ListNode<T> next { get; set; }
-
-
-        #region methods
-
-        public ListNode<T> InsertNodeToEnd(ListNode<T> root, T value) {
-
-            ListNode<T> tmpNode = new ListNode<T>();
-            tmpNode.value = value;
-            tmpNode.next = null;
-
-            ListNode<T> ptr;
-
-            // if root is empty
-            if (root == null) {
-                root = tmpNode;
-            } else {
-                ptr = root;
-
-                while (ptr.next != null) {
-                    ptr = ptr.next;
-                }
-
-                ptr.next = tmpNode;
-            }
-
-            return root;
-
-        }
-
-        #endregion
-    }
+    
 }
