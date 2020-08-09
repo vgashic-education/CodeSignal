@@ -21,9 +21,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{638BB1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedLists", "LinkedLists", "{FD6D1350-C1A1-4637-8AA2-0F2B7AA87D32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsListPalindrome", "IsListPalindrome\IsListPalindrome.csproj", "{AE405848-CAD1-43A8-A864-151CB8856C5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsListPalindrome", "IsListPalindrome\IsListPalindrome.csproj", "{AE405848-CAD1-43A8-A864-151CB8856C5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{59A7EADF-F5B4-4E4D-95EB-6B6A307143B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListNode", "LinkedList\ListNode.csproj", "{59A7EADF-F5B4-4E4D-95EB-6B6A307143B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeTwoLinkedLists", "MergeTwoLInkedLists\MergeTwoLinkedLists.csproj", "{761D24D7-9610-4C12-A567-3CB4DBEC9CFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +69,10 @@ Global
 		{59A7EADF-F5B4-4E4D-95EB-6B6A307143B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59A7EADF-F5B4-4E4D-95EB-6B6A307143B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59A7EADF-F5B4-4E4D-95EB-6B6A307143B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{761D24D7-9610-4C12-A567-3CB4DBEC9CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{761D24D7-9610-4C12-A567-3CB4DBEC9CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{761D24D7-9610-4C12-A567-3CB4DBEC9CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{761D24D7-9610-4C12-A567-3CB4DBEC9CFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +87,7 @@ Global
 		{9FA0C91F-E814-4444-84CD-F35B454DED45} = {FD6D1350-C1A1-4637-8AA2-0F2B7AA87D32}
 		{AE405848-CAD1-43A8-A864-151CB8856C5A} = {FD6D1350-C1A1-4637-8AA2-0F2B7AA87D32}
 		{59A7EADF-F5B4-4E4D-95EB-6B6A307143B6} = {FD6D1350-C1A1-4637-8AA2-0F2B7AA87D32}
+		{761D24D7-9610-4C12-A567-3CB4DBEC9CFA} = {FD6D1350-C1A1-4637-8AA2-0F2B7AA87D32}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16F62D6C-EE36-4F2B-BBD8-5EAE5D940774}
