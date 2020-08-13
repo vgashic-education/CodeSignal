@@ -11,7 +11,8 @@ namespace MergeTwoLInkedLists
 
             int[] arr = new[] { 1, 2, 3, 4 };
 
-            list.LinkedListFromArray(arr);
+            list.Insert(2);
+        
         }
     }
 }
